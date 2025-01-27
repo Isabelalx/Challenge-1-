@@ -31,5 +31,12 @@ console.log(accountBalance)
 
 // task 4
 let customerName = "name_of_customer";  
-let welcomeMessage = "Welcome to our store, ";
+let welcomeMessage = "Welcome to our store, + customerName + !";
 console.log(welcomeMessage + customerName); 
+
+// task 5
+let isLoggedIn = true;
+let hasAccess = isLoggedIn && hasAccess;
+
+console.log("user login status: ", isLoggedIn);
+console.log("user access status: ", hasAccess);
