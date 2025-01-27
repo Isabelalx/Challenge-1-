@@ -28,3 +28,8 @@ accountBalance /= 6
 console.log(accountBalance)
 accountBalance %= 10
 console.log(accountBalance)
+
+// task 4
+let customerName = "name_of_customer";  
+let welcomeMessage = "Welcome to our store, ";
+console.log(welcomeMessage + customerName); 
